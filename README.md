@@ -1,3 +1,15 @@
+# Breadcrumb File-Browser
+
+This is a solution to a short pre-interview question, which is required to write a breadcrumb file-browser component in react.
+
+The solution is done using `React`, `React-Router` and `Bulma` for frontend. The server is implemented using `ExpressJs`.
+
+For the sake of simplicity, it assumes the file structure starts with `root`.
+
+To edit the file structure for testing, you need to update the content of the object `root` located inside `src/server.js`.
+
+To test the app, run `npm run dev` or `yarn dev`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,6 +17,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn dev`
+
+This will run the server at port `5000` and the frontend at port `3000`.
+
+The `nodemon` package and `react-script` enable auto-reload to develop and test the solution quickly.
 
 ### `yarn start`
 

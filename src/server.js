@@ -1,4 +1,4 @@
-// Edit this root object to change the folder structure.
+// Edit the content of this root object to change the folder structure.
 let root = {
   type: 'dir',
   children: {
