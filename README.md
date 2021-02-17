@@ -4,7 +4,7 @@ This is a solution to a short pre-interview question, which is required to write
 
 The solution is done using `React`, `React-Router` and `Bulma` for frontend. The server is implemented using `ExpressJs`.
 
-For the sake of simplicity, it assumes the file structure starts with `root`.
+For the sake of simplicity, it assumes the file structure starts with `root`. Furthermore, when a path, which does not exist, is requested, the server will reponse 404, and the client will immediately redirect to `root`.
 
 To edit the file structure for testing, you need to update the content of the object `root` located inside `src/server.js`.
 
